@@ -5,10 +5,10 @@ on:
     branches:
       - main
       - hotfix
-      - '**'
+      - 'hotfix/**'
   create:
     branches:
-      - '**'
+      - 'hotfix/**'
 
 jobs:
   build:
